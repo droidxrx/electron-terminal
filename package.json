@@ -1,0 +1,35 @@
+{
+    "name": "electron-terminal",
+    "version": "1.0.0",
+    "description": "My first Electron Terminal with XtermJS",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron .",
+        "rebuild": "electron-rebuild"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/droidxrx/electron-terminal.git"
+    },
+    "keywords": [
+        "electron",
+        "electron app",
+        "xterm",
+        "electron terminal"
+    ],
+    "author": "DroidXrX <droidxrx@gmail.com> (https://github.com/droidxrx)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/droidxrx/electron-terminal/issues"
+    },
+    "homepage": "https://github.com/droidxrx/electron-terminal#readme",
+    "dependencies": {
+        "node-pty": "^0.10.1",
+        "xterm": "^4.13.0",
+        "xterm-addon-fit": "^0.5.0"
+    },
+    "devDependencies": {
+        "electron": "^13.1.7",
+        "electron-rebuild": "^2.3.5"
+    }
+}
